@@ -1,16 +1,38 @@
-# curso_flutter
 
-Nosso primeiro projeto em flutter
+# Flutter: Controller, Navegação e Estados
 
-## Getting Started
+O Curso básico de Flutter que ensina aos estudantes como: 
+-> Criar multiplas telas 
+-> Navegar entre telas
+-> Produzir um Formulário
+-> Configurar Validação
+-> Compreender os conceitos básicos de Contexto e Estado
 
-This project is a starting point for a Flutter application.
+## 🔨 Projeto: Organizador de Tarefas
 
-A few resources to get you started if this is your first Flutter project:
+O projeto do curso consiste em criar uma nova tela ao projeto Organizador de Tarefas, com o intuito de produzir um formulário que adiciona uma nova tarefa customizada!
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## ✔️ Técnicas e tecnologias
+
+
+- `TextField`: Widget de Campo de Texto.
+- `TextFormField`: Widget de Campo de Texto com Validação.
+- `Form`: Widget de Formulário que cuida da Validação de todos os TextFormFields.
+- `controller`: parâmetro de TextField que manipula os dados.
+- `ErrorBuilder`: função do Widget Image que permite lidar com erros.
+- `keyboardType`: parâmetro do TextField que permite alteração de teclados.
+- `validator`: parâmetro do TextFormField que permite adicionar validação.
+- `SnackBar`: Widget do Scaffold, perfeito para mostrar informações.
+- `Navegação`: conceito de mudança de tela.
+- `Rotas`: nomenclatura para Telas.
+- `Inherited Widget`: Widget com habilidade de lidar e transmitir dados.
+- `context`: conceito de localização e ambientação em relação a diferentes telas no Flutter.
+ 
+
+## 📚 Mais informações do curso
+
+
+Esse curso faz parte da [formação de Flutter da Alura](https://cursos.alura.com.br/formacao-flutter)
+
